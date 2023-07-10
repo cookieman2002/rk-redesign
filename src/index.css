@@ -23,3 +23,15 @@
   .animation-delay-3 {
     animation-delay: 800ms;
   }
+  .hoverable:hover {
+    animation: bounce 0.5s infinite alternate;
+  }
+  
+  @keyframes Textbounce {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-5px);
+    }
+  }
